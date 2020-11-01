@@ -11,6 +11,7 @@
 		B514C9FD254D671300F9BC22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B514C9FC254D671300F9BC22 /* ContentView.swift */; };
 		B514C9FF254D671600F9BC22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B514C9FE254D671600F9BC22 /* Assets.xcassets */; };
 		B514CA02254D671600F9BC22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B514CA01254D671600F9BC22 /* Preview Assets.xcassets */; };
+		B58DAF97254EC2FC00AC81F2 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58DAF96254EC2FC00AC81F2 /* Track.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		B514C9FE254D671600F9BC22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B514CA01254D671600F9BC22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B514CA03254D671600F9BC22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B58DAF96254EC2FC00AC81F2 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +54,11 @@
 		B514C9F9254D671300F9BC22 /* Moodify */ = {
 			isa = PBXGroup;
 			children = (
-				B514C9FA254D671300F9BC22 /* MoodifyApp.swift */,
-				B514C9FC254D671300F9BC22 /* ContentView.swift */,
-				B514C9FE254D671600F9BC22 /* Assets.xcassets */,
 				B514CA03254D671600F9BC22 /* Info.plist */,
+				B514C9FC254D671300F9BC22 /* ContentView.swift */,
+				B514C9FA254D671300F9BC22 /* MoodifyApp.swift */,
+				B514C9FE254D671600F9BC22 /* Assets.xcassets */,
+				B58DAF95254EC2E700AC81F2 /* Models */,
 				B514CA00254D671600F9BC22 /* Preview Content */,
 			);
 			path = Moodify;
@@ -67,6 +70,14 @@
 				B514CA01254D671600F9BC22 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B58DAF95254EC2E700AC81F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B58DAF96254EC2FC00AC81F2 /* Track.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				B514C9FD254D671300F9BC22 /* ContentView.swift in Sources */,
 				B514C9FB254D671300F9BC22 /* MoodifyApp.swift in Sources */,
+				B58DAF97254EC2FC00AC81F2 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
