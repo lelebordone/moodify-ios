@@ -11,7 +11,10 @@
 		B514C9FD254D671300F9BC22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B514C9FC254D671300F9BC22 /* ContentView.swift */; };
 		B514C9FF254D671600F9BC22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B514C9FE254D671600F9BC22 /* Assets.xcassets */; };
 		B514CA02254D671600F9BC22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B514CA01254D671600F9BC22 /* Preview Assets.xcassets */; };
-		B58DAF97254EC2FC00AC81F2 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58DAF96254EC2FC00AC81F2 /* Track.swift */; };
+		B5553873256929BF000ED007 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555386F256929BF000ED007 /* Artist.swift */; };
+		B5553874256929BF000ED007 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5553870256929BF000ED007 /* Search.swift */; };
+		B5553875256929BF000ED007 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5553871256929BF000ED007 /* Track.swift */; };
+		B5553876256929BF000ED007 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5553872256929BF000ED007 /* Album.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +24,10 @@
 		B514C9FE254D671600F9BC22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B514CA01254D671600F9BC22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B514CA03254D671600F9BC22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B58DAF96254EC2FC00AC81F2 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		B555386F256929BF000ED007 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		B5553870256929BF000ED007 /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		B5553871256929BF000ED007 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Track.swift; path = ../../../../Moodify/Moodify/Models/Track.swift; sourceTree = "<group>"; };
+		B5553872256929BF000ED007 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +81,10 @@
 		B58DAF95254EC2E700AC81F2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B58DAF96254EC2FC00AC81F2 /* Track.swift */,
+				B5553872256929BF000ED007 /* Album.swift */,
+				B555386F256929BF000ED007 /* Artist.swift */,
+				B5553870256929BF000ED007 /* Search.swift */,
+				B5553871256929BF000ED007 /* Track.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -151,7 +160,10 @@
 			files = (
 				B514C9FD254D671300F9BC22 /* ContentView.swift in Sources */,
 				B514C9FB254D671300F9BC22 /* MoodifyApp.swift in Sources */,
-				B58DAF97254EC2FC00AC81F2 /* Track.swift in Sources */,
+				B5553874256929BF000ED007 /* Search.swift in Sources */,
+				B5553873256929BF000ED007 /* Artist.swift in Sources */,
+				B5553876256929BF000ED007 /* Album.swift in Sources */,
+				B5553875256929BF000ED007 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
